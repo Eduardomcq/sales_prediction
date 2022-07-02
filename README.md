@@ -1,6 +1,6 @@
 # sales_prediction
 
-![rossmann](/img/rossmann.png "Image Title")
+![rossmann](/img/rossmann.jpg "Image Title")
 
 
 
