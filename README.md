@@ -17,3 +17,12 @@ Neste projeto foi utilizado o conjunto de dados disponíveis on-line, publicamen
 ## Modelos Estudados
 
 Para a resolução deste problema optamos por comparar inicialmente os modelos: Regressão Linear, Árvore de Decisão, Random Forest e XGBoost. Os modelos foram treinados nos conjuntos de dados com os seus parâmetros em default. A partir desta análise inicial foi escolhido o modelo com melhor performance para passar pelo ajuste fino dos Hyperparâmetros. Abaixo demonstro os resultados obtidos nesta primeiro parte de validação dos modelos escolhidos:
+
+![modelos](/img/modelos_treinados.jpg "modelos")
+
+Dentre as métricas adotadas o modelo escolhido para o processo de fine tuning foi o XGBoost. Para o ajuste dos hyperparâmetros fizemos uma busca aleatória dentre um espaço de parâmetros pré-selecionados. O modelo final que chegamos possui o seguinte desempenho:
+
+
+
+
+
