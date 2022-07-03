@@ -1,6 +1,6 @@
 # PREVISÃO DE VENDAS - LOJAS ROSSMANN
 
-![rossmann](/img/rossmann.jpg "Image Title")
+![rossmann](/img/rossmann.jpg "Logo Rossmann")
 
 ## Introdução
 
@@ -21,6 +21,14 @@ Para a resolução deste problema optamos por comparar inicialmente os modelos: 
 ![modelos](/img/modelos_treinados.jpg "modelos")
 
 Dentre as métricas adotadas o modelo escolhido para o processo de fine tuning foi o XGBoost. Para o ajuste dos hyperparâmetros fizemos uma busca aleatória dentre um espaço de parâmetros pré-selecionados. O modelo final que chegamos possui o seguinte desempenho:
+
+![modelos](/img/modelo_final.jpg "modelo final")
+
+Abaixo apresento uma análise de desempenho do modelo nas lojas do conjunto de dados de teste, observa-se que para a maior parte das lojas os resultados foram satisfatórios, contudo, para algumas lojas, o modelo não foi tão preciso. Um próximo passo seria estudarmos a possibilidade de gerar um modelo especial para as lojas onde o desempenho do modelo inicial não foi tão satisfatório.
+
+![modelos](/img/MAE_lojas.jpg "Desempenho dos Modelos")
+
+Por fim apresento a previsão final da receita total para os dados de teste em comparação com o valor real, observa-se que as previsões seguem a tendência da série temporal real.
 
 
 
