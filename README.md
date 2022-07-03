@@ -31,6 +31,6 @@ Abaixo apresento uma análise de desempenho do modelo nas lojas do conjunto de d
 Por fim apresento a previsão final da receita total para os dados de teste em comparação com o valor real, observa-se que as previsões seguem a tendência da série temporal real.
 
 
-
+![modelos](/img/vendas_previsoes.jpg "previsoes")
 
 
