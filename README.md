@@ -14,3 +14,6 @@ Sobre os dados:
 
 Neste projeto foi utilizado o conjunto de dados disponíveis on-line, publicamente, no [Kaglle](https://www.kaggle.com/c/rossmann-store-sales). Este conjunto de dados possui o faturamento diário de 1115 lojas entre 2013 e 2015. Junto ao faturamento (variável que queremos prever) estão incluídas algumas variáveis referentes a características próprias de cada uma das lojas, como, distância dos concorrentes, tamanho da loja, variedade de itens, etc. Além disso também estão presentes no banco de dados informações referentes aos dias de operações das lojas, como por exemplo a indicação de datas de férias escolares, feriádos nacionais ocorrência de promoções nas lojas etc.
 
+## Modelos Estudados
+
+Para a resolução deste problema optamos por comparar inicialmente os modelos: Regressão Linear, Árvore de Decisão, Random Forest e XGBoost. Os modelos foram treinados nos conjuntos de dados com os seus parâmetros em default. A partir desta análise inicial foi escolhido o modelo com melhor performance para passar pelo ajuste fino dos Hyperparâmetros. Abaixo demonstro os resultados obtidos nesta primeiro parte de validação dos modelos escolhidos:
